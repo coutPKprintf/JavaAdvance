@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaAdvance.iml" filepath="$PROJECT_DIR$/JavaAdvance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-classloader/source-code-analysis-classloader.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-classloader/source-code-analysis-classloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/source-code-analysis-collection.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/source-code-analysis-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-concurrent/source-code-analysis-concurrent.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-concurrent/source-code-analysis-concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-gc/source-code-analysis-gc.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-gc/source-code-analysis-gc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-io/source-code-analysis-io.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-io/source-code-analysis-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-memory/source-code-analysis-memory.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-memory/source-code-analysis-memory.iml" />
+    </modules>
+  </component>
+</project>

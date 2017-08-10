@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="source-code-analysis-classloader" />
+        <module name="source-code-analysis-collection" />
+        <module name="source-code-analysis-concurrent" />
+        <module name="source-code-analysis-gc" />
+        <module name="source-code-analysis-io" />
+        <module name="source-code-analysis-memory" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="JavaAdvance" target="1.5" />
+      <module name="source-code-analysis" target="1.5" />
+      <module name="source-code-analysis-classloader" target="1.5" />
+      <module name="source-code-analysis-collection" target="1.5" />
+      <module name="source-code-analysis-concurrent" target="1.5" />
+      <module name="source-code-analysis-gc" target="1.5" />
+      <module name="source-code-analysis-io" target="1.5" />
+      <module name="source-code-analysis-memory" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
