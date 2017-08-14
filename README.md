@@ -5,7 +5,10 @@
 ### 1.1 源码分析之Java常用数据结构分析(source-code-analysis-collection)
 
 #### 1.1.1 List组件
-         1.1.1.1 [ArrayList](https://github.com/coutPKprintf/JavaAdvance/blob/master/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md)
+#####  1.1.1.1 [ArrayList](https://github.com/coutPKprintf/JavaAdvance/blob/master/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md)
+<pre>
+       ArrayList是一个基于数组实现的自动扩容的非线程安全列表
+</pre
 
 ### 1.2 源码分析之Java并发包分析(source-code-analysis-concurrent)
 
