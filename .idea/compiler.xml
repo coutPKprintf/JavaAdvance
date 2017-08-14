@@ -23,18 +23,24 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="source-code-analysis-classloader" />
-        <module name="source-code-analysis-collection" />
         <module name="source-code-analysis-concurrent" />
         <module name="source-code-analysis-gc" />
         <module name="source-code-analysis-io" />
         <module name="source-code-analysis-memory" />
+      </profile>
+      <profile default="false" name="Annotation profile for source-code-analysis-collection" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="source-code-analysis-collection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="JavaAdvance" target="1.5" />
       <module name="source-code-analysis" target="1.5" />
       <module name="source-code-analysis-classloader" target="1.5" />
-      <module name="source-code-analysis-collection" target="1.5" />
+      <module name="source-code-analysis-collection" target="1.8" />
       <module name="source-code-analysis-concurrent" target="1.5" />
       <module name="source-code-analysis-gc" target="1.5" />
       <module name="source-code-analysis-io" target="1.5" />
