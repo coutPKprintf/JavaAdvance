@@ -8,7 +8,8 @@ ArrayList是一个基于数组实现的自动扩容的非线程安全列表, 其
 </pre>
 <pre>
    1. ArrayList(int initialCapacity):
-        创建指定初始化大小的列表, elementData是真正存储数据的数组, elementData.length &gt= size, 也就是说会提前分配一定大小的内存给elementData, 以便于后面每次插入新数据时, 需要重新扩充内存.
+        创建指定初始化大小的列表, elementData是真正存储数据的数组, elementData.length &gt= size,
+         也就是说会提前分配一定大小的内存给elementData, 以便于后面每次插入新数据时, 需要重新扩充内存.
         当 initialCapacity &lt 0 时, 将发生IllegalArgumentException异常.
         当 initialCapacity = 0 时, elementData将赋值为EMPTY_ELEMENTDATA空数组.
         当 initialCapacity &gt 0 时, elementData将会创建一个大小为initialCapacity的数组
@@ -49,24 +50,31 @@ ArrayList是一个基于数组实现的自动扩容的非线程安全列表, 其
 <pre>
 
 3.1. 时间复杂度
-   3.1.1 get(int index), set(int index, E element), add(E e) 等操作的时间复杂度为 O(1). 由于ArrayList是基于数组结构, 所以通过下标查询相当数组的下标定位, 而添加新元素是添加到数组的末尾, 自然时间复杂度为 O(1).
-   3.1.2 add(int index, E element), remove(int index), remove(Object o) 等时间复杂度为 O(n). 由于ArrayList是基于数组结构, 所以如果往中间插入或删除数据的话, 如要将插入位置之后的所有数据前移或后移.
+   3.1.1 get(int index), set(int index, E element), add(E e) 等操作的时间复杂度为 O(1).
+    由于ArrayList是基于数组结构, 所以通过下标查询相当数组的下标定位, 而添加新元素是添加到数组的末尾, 
+    自然时间复杂度为 O(1).
+   3.1.2 add(int index, E element), remove(int index), remove(Object o) 等时间复杂度为 O(n). 
+   由于ArrayList是基于数组结构, 所以如果往中间插入或删除数据的话, 如要将插入位置之后的所有数据前移或后移.
 
 3.2. 空间复杂度
-   由于是数组结构存储数据, 所以空间复杂度为 O(n), 不过由于ArrayList每次扩容, 都是以 n + n/2 的方式, 所以空间复杂度可能达到 O(n + n/2). 详情见 源码中 grow(int minCapacity) 这个函数.
+   由于是数组结构存储数据, 所以空间复杂度为 O(n), 不过由于ArrayList每次扩容, 都是以 n + n/2 的方式,
+    所以空间复杂度可能达到 O(n + n/2). 详情见 源码中 grow(int minCapacity) 这个函数.
 
 </pre>
 
 ### 4. 算法分析及关键方法分析
 
-####4.1 算法分析
+#### 4.1 算法分析
 <pre>
-	ArrayList是一个基于数据实现无线扩容的列表(最大长度Integer.MAX_VALUE - 8), 在每次添加新元素时，为了确保元素个数不超过数组大小，当元素个数size > capacity时， ArrayList会以 n + n/2 的增加容量capacity。当每次删除元素时，为了确保元素在数组中的连续性， ArrayList将会把被删除元素之后的所有元素前移一位。当通过下标获取元素时，ArrayList通过数组的下标直接定位到指定元素。
+	ArrayList是一个基于数据实现无线扩容的列表(最大长度Integer.MAX_VALUE - 8), 在每次添加新元素时，
+	为了确保元素个数不超过数组大小，当元素个数size > capacity时， ArrayList会以 n + n/2 的增加容量capacity。
+	当每次删除元素时，为了确保元素在数组中的连续性， ArrayList将会把被删除元素之后的所有元素前移一位。
+	当通过下标获取元素时，ArrayList通过数组的下标直接定位到指定元素。
 </pre>
 
-####4.2 关键方法分析
+#### 4.2 关键方法分析
 
-#####4.2.1 获取子列表
+##### 4.2.1 获取子列表
 
 ```java
 public List<E> subList(int fromIndex, int toIndex)
@@ -74,7 +82,8 @@ public List<E> subList(int fromIndex, int toIndex)
 
 4.2.1.1 方法说明
 <pre>
-	调用subList方法新生成的List相当于原始List的视图, 当对新生成的List操作时, 原始List也会受到影响.详情见测试用例arrayListSubListTest
+	调用subList方法新生成的List相当于原始List的视图, 当对新生成的List操作时, 原始List也会受到影响.
+	详情见测试用例arrayListSubListTest
 </pre>
 
 4.2.1.2 源码分析
@@ -151,13 +160,16 @@ private class SubList extends AbstractList<E> implements RandomAccess {
 ```
 
 
-#####4.2.2 动态扩容
+##### 4.2.2 动态扩容
 ```java
 private void grow(int minCapacity)
 ```
 4.2.2.1 方法说明
 <pre>
-	动态扩容是ArrayList相对于传统数组的优势，但是我们必须要了解ArrayList的扩容方式，这样才能使我们更好的使用ArrayList，更充分的利用内存。ArrayList每次扩容都是一次耗时操作，并且会浪费一部分引用空间，所以如果我们在使用ArrayList时，能够估计大概需要的容量大小，尽量通过指定大小的方式创建ArrayList，既省空间又省时间。
+	动态扩容是ArrayList相对于传统数组的优势，但是我们必须要了解ArrayList的扩容方式，
+	这样才能使我们更好的使用ArrayList，更充分的利用内存。ArrayList每次扩容都是一次耗时操作，
+	并且会浪费一部分引用空间，所以如果我们在使用ArrayList时，能够估计大概需要的容量大小，
+	尽量通过指定大小的方式创建ArrayList，既省空间又省时间。
 </pre>
 
 4.2.2.2 源码分析
@@ -176,7 +188,8 @@ public void ensureCapacity(int minCapacity) {
     }
 }
 
-//当添加一个新元素时，会调用ensureCapacityInternal(size+1)方法，确保容量大于等于minCapacity，再次校验如果为默认构造器创建的List，则初始时最小容量为DEFAULT_CAPACITY=10
+//当添加一个新元素时，会调用ensureCapacityInternal(size+1)方法，确保容量大于等于minCapacity，
+//再次校验如果为默认构造器创建的List，则初始时最小容量为DEFAULT_CAPACITY=10
 private void ensureCapacityInternal(int minCapacity) {
     if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
         minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);

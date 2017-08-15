@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f4526c-b6f2-4ce2-a746-3c08156a3be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" afterPath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java" afterPath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java" />
     </list>
     <ignored path="JavaAdvance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,12 +33,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayList.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayList.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.72289157">
-                <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.55903614">
+                <caret line="191" column="2" selection-start-line="191" selection-start-column="2" selection-end-line="191" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -65,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.14553991">
+            <state vertical-scroll-proportion="0.0">
               <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
               <folding>
                 <element signature="method#batchRemove#0;class#ArrayList#0" expanded="false" />
@@ -150,8 +148,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/TestA.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java" />
+        <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" />
       </list>
     </option>
   </component>
@@ -1349,7 +1347,7 @@
       <workItem from="1502679478515" duration="341000" />
       <workItem from="1502679945291" duration="2762000" />
       <workItem from="1502696175791" duration="2349000" />
-      <workItem from="1502764842729" duration="2898000" />
+      <workItem from="1502764842729" duration="3092000" />
     </task>
     <servers />
   </component>
@@ -1386,7 +1384,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33434000" />
+    <option name="totallyTimeSpent" value="33628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-1029" width="1440" height="2560" extended-state="0" />
@@ -1983,20 +1981,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.72289157">
-            <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2011,7 +1995,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.14553991">
+        <state vertical-scroll-proportion="0.0">
           <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
           <folding>
             <element signature="method#batchRemove#0;class#ArrayList#0" expanded="false" />
@@ -2027,6 +2011,20 @@
             <element signature="method#replaceAll#0;class#ArrayList#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.55903614">
+            <caret line="191" column="2" selection-start-line="191" selection-start-column="2" selection-end-line="191" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
