@@ -235,6 +235,7 @@ private static int hugeCapacity(int minCapacity) {
 <pre>
 	5.1 适应于查询次数远远大于修改次数的场景。
 	5.2 适应于元素大小不确定的场景。
+	5.3 适应于随机访问,通过下标定位元素的场景。
 </pre>
 
 ### 6. 同样功能的类对比 或 不同版本实现对比

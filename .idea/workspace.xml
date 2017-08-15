@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f4526c-b6f2-4ce2-a746-3c08156a3be0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source-code-analysis-readme.md" afterPath="$PROJECT_DIR$/docs/source-code-analysis-readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" afterPath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" />
     </list>
     <ignored path="JavaAdvance.iws" />
@@ -33,12 +35,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayList.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md">
+      <file leaf-file-name="JAVA/java.util.LinkedList" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.util.LinkedList">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.LinkedList</OriginalElement>
+              <nodes>
+                <node x="169.0" y="158.0">java.util.List</node>
+                <node x="0.0" y="158.0">java.util.AbstractCollection</node>
+                <node x="344.75" y="316.0">java.lang.Cloneable</node>
+                <node x="148.5" y="79.0">java.util.Collection</node>
+                <node x="47.5" y="237.0">java.util.AbstractList</node>
+                <node x="298.25" y="158.0">java.util.Queue</node>
+                <node x="220.79464285714283" y="395.0">java.util.LinkedList</node>
+                <node x="298.25" y="237.0">java.util.Deque</node>
+                <node x="15.0" y="316.0">java.util.AbstractSequentialList</node>
+                <node x="157.0" y="0.0">java.lang.Iterable</node>
+                <node x="220.75" y="316.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.AbstractSequentialList" target="java.util.AbstractList">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.LinkedList" target="java.util.Deque">
+                  <point x="19.399999999999977" y="-14.5" />
+                  <point x="288.6946428571428" y="365.0" />
+                  <point x="334.25" y="365.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.LinkedList" target="java.util.List">
+                  <point x="-19.400000000000006" y="-14.5" />
+                  <point x="249.89464285714283" y="365.0" />
+                  <point x="210.25" y="365.0" />
+                  <point x="13.75" y="14.5" />
+                </edge>
+                <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+                  <point x="-27.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.Queue" target="java.util.Collection">
+                  <point x="0.0" y="-14.5" />
+                  <point x="334.25" y="133.0" />
+                  <point x="228.5" y="133.0" />
+                  <point x="32.0" y="14.5" />
+                </edge>
+                <edge source="java.util.LinkedList" target="java.lang.Cloneable">
+                  <point x="38.80000000000001" y="-14.5" />
+                  <point x="308.09464285714284" y="375.0" />
+                  <point x="391.75" y="375.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.LinkedList" target="java.io.Serializable">
+                  <point x="0.0" y="-14.5" />
+                  <point x="269.29464285714283" y="375.0" />
+                  <point x="272.25" y="375.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.List" target="java.util.Collection">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.Deque" target="java.util.Queue">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.Collection" target="java.lang.Iterable">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.AbstractList" target="java.util.List">
+                  <point x="27.0" y="-14.5" />
+                  <point x="128.5" y="212.0" />
+                  <point x="182.75" y="212.0" />
+                  <point x="-13.75" y="14.5" />
+                </edge>
+                <edge source="java.util.LinkedList" target="java.util.AbstractSequentialList">
+                  <point x="-38.80000000000001" y="-14.5" />
+                  <point x="230.49464285714282" y="375.0" />
+                  <point x="101.5" y="375.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="java.util.AbstractCollection" target="java.util.Collection">
+                  <point x="0.0" y="-14.5" />
+                  <point x="74.5" y="133.0" />
+                  <point x="164.5" y="133.0" />
+                  <point x="-32.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.7631990115786755" x="89.11622875464104" y="-211.88377124535896" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="source-code-analysis-template.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source-code-analysis-template.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.55903614">
-                <caret line="191" column="2" selection-start-line="191" selection-start-column="2" selection-end-line="191" selection-end-column="2" />
+              <first_editor vertical-scroll-proportion="0.072289154">
+                <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -49,58 +150,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#522#531#0" expanded="true" />
-                <element signature="method#equals#0;class#Data#0;class#ArrayListTests#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Data#0;class#ArrayListTests#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-              <folding>
-                <element signature="method#batchRemove#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#readObject#0;class#ArrayList#0" expanded="false" />
-                <element signature="class#Itr#0;class#ArrayList#0" expanded="false" />
-                <element signature="class#ListItr#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#subListRangeCheck#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#addAll#1;class#SubList#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#listIterator#0;class#SubList#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#spliterator#0;class#SubList#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#forEach#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#removeIf#0;class#ArrayList#0" expanded="false" />
-                <element signature="method#replaceAll#0;class#ArrayList#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.05060241">
-                <caret line="7" column="199" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="199" />
+              <first_editor vertical-scroll-proportion="0.014457831">
+                <caret line="2" column="132" selection-start-line="2" selection-start-column="132" selection-end-line="2" selection-end-column="132" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -108,6 +163,36 @@
           </provider>
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="source-code-analysis-readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source-code-analysis-readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.05060241">
+                <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+              <folding>
+                <element signature="class#ListItr#0;class#LinkedList#0" expanded="false" />
+                <element signature="class#DescendingIterator#0;class#LinkedList#0" expanded="false" />
+                <element signature="class#LLSpliterator#0;class#LinkedList#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -142,14 +227,14 @@
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/package-info.java" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/package-info.java" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/List.puml" />
-        <option value="$PROJECT_DIR$/docs/source-code-analysis-readme.md" />
         <option value="$PROJECT_DIR$/docs/source-code-analysis-template.md" />
         <option value="$PROJECT_DIR$/source-code-analysis/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/TestA.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java" />
         <option value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md" />
+        <option value="$PROJECT_DIR$/docs/source-code-analysis-readme.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -387,81 +472,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source-code-analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source-code-analysis-collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaAdvance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaAdvance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source-code-analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source-code-analysis-collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,7 +491,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="Stream&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;LinkedTransferQueue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/LinkedTransferQueue.class&#10;ArrayList&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/List.java&#10;LinkedLi&#9;PSI&#9;JAVA://java.util.LinkedList" />
+    <property name="SearchEverywhereHistoryKey" value="Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;Linked&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/LinkedList.java&#10;Stream&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java&#10;ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;LinkedTransferQueue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/LinkedTransferQueue.class&#10;ArrayList&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/List.java&#10;LinkedLi&#9;PSI&#9;JAVA://java.util.LinkedList" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList" />
   </component>
   <component name="RecentsManager">
@@ -1347,7 +1358,7 @@
       <workItem from="1502679478515" duration="341000" />
       <workItem from="1502679945291" duration="2762000" />
       <workItem from="1502696175791" duration="2349000" />
-      <workItem from="1502764842729" duration="3092000" />
+      <workItem from="1502764842729" duration="6467000" />
     </task>
     <servers />
   </component>
@@ -1384,7 +1395,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33628000" />
+    <option name="totallyTimeSpent" value="37003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-1029" width="1440" height="2560" extended-state="0" />
@@ -1444,96 +1455,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65946347">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.alpha.source.code.list">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.alpha.source.code.list</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="1034.0" y="658.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.List">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.List</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.List</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="174.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.ArrayList">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.ArrayList</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.RandomAccess</node>
-            <node x="" y="">java.lang.Cloneable</node>
-            <node x="" y="">java.util.AbstractCollection</node>
-            <node x="" y="">java.util.List</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.util.AbstractList</node>
-            <node x="" y="">java.lang.Iterable</node>
-            <node x="" y="">java.util.ArrayList</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.7396421159627538" x="257.0" y="186.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32414308">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="220" column="27" selection-start-line="220" selection-start-column="27" selection-end-line="220" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2175857">
@@ -1567,32 +1488,6 @@
         <state vertical-scroll-proportion="0.04470939">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source-code-analysis-readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.05827506">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source-code-analysis-template.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.11655012">
-            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/pom.xml">
@@ -1637,11 +1532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33267328">
@@ -1660,89 +1550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33267328">
           <caret line="432" column="16" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.ArrayList</OriginalElement>
-          <nodes>
-            <node x="287.25" y="237.0">java.util.RandomAccess</node>
-            <node x="66.5" y="158.0">java.util.AbstractCollection</node>
-            <node x="235.5" y="158.0">java.util.List</node>
-            <node x="0.0" y="237.0">java.lang.Cloneable</node>
-            <node x="155.03750000000002" y="79.0">java.util.Collection</node>
-            <node x="114.00000000000001" y="237.0">java.util.AbstractList</node>
-            <node x="163.53750000000002" y="0.0">java.lang.Iterable</node>
-            <node x="232.75" y="316.0">java.util.ArrayList</node>
-            <node x="434.25" y="237.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.ArrayList" target="java.lang.Cloneable">
-              <point x="-35.19999999999999" y="-14.5" />
-              <point x="241.55" y="296.0" />
-              <point x="47.0" y="296.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.RandomAccess">
-              <point x="17.600000000000023" y="-14.5" />
-              <point x="294.35" y="286.0" />
-              <point x="350.75" y="286.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.io.Serializable">
-              <point x="35.19999999999999" y="-14.5" />
-              <point x="311.95" y="296.0" />
-              <point x="485.75" y="296.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.List" target="java.util.Collection">
-              <point x="0.0" y="-14.5" />
-              <point x="263.0" y="133.0" />
-              <point x="227.03750000000002" y="133.0" />
-              <point x="24.0" y="14.5" />
-            </edge>
-            <edge source="java.util.AbstractList" target="java.util.List">
-              <point x="27.0" y="-14.5" />
-              <point x="195.0" y="212.0" />
-              <point x="249.25" y="212.0" />
-              <point x="-13.75" y="14.5" />
-            </edge>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.List">
-              <point x="0.0" y="-14.5" />
-              <point x="13.75" y="14.5" />
-            </edge>
-            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
-              <point x="-27.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.AbstractList">
-              <point x="-17.600000000000023" y="-14.5" />
-              <point x="259.15" y="286.0" />
-              <point x="168.0" y="286.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.util.AbstractCollection" target="java.util.Collection">
-              <point x="0.0" y="-14.5" />
-              <point x="141.0" y="133.0" />
-              <point x="179.03750000000002" y="133.0" />
-              <point x="-24.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.7396421159627538" x="88.0" y="-376.0" />
-          <SelectedNodes>
-            <node>java.util.ArrayList</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1935,14 +1742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92957747">
-          <caret line="730" column="27" selection-start-line="730" selection-start-column="27" selection-end-line="730" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/Spliterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23943663">
@@ -1959,31 +1758,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.05060241">
-            <caret line="7" column="199" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="199" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/tests/ArrayListTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.09859155">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#522#531#0" expanded="true" />
@@ -2013,11 +1790,306 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09259259">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35915494">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6056338">
+          <caret line="168" column="31" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="563" column="6" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3028169">
+          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41179267">
+          <caret line="427" column="26" selection-start-line="427" selection-start-column="26" selection-end-line="427" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="class#ListItr#0;class#LinkedList#0" expanded="false" />
+            <element signature="class#DescendingIterator#0;class#LinkedList#0" expanded="false" />
+            <element signature="class#LLSpliterator#0;class#LinkedList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <nodes>
+            <node x="287.25" y="237.0">java.util.RandomAccess</node>
+            <node x="235.5" y="158.0">java.util.List</node>
+            <node x="0.0" y="237.0">java.lang.Cloneable</node>
+            <node x="66.5" y="158.0">java.util.AbstractCollection</node>
+            <node x="155.03750000000002" y="79.0">java.util.Collection</node>
+            <node x="114.00000000000001" y="237.0">java.util.AbstractList</node>
+            <node x="163.53750000000002" y="0.0">java.lang.Iterable</node>
+            <node x="232.75" y="316.0">java.util.ArrayList</node>
+            <node x="434.25" y="237.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.ArrayList" target="java.lang.Cloneable">
+              <point x="-35.19999999999999" y="-14.5" />
+              <point x="241.55" y="296.0" />
+              <point x="47.0" y="296.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.RandomAccess">
+              <point x="17.600000000000023" y="-14.5" />
+              <point x="294.35" y="286.0" />
+              <point x="350.75" y="286.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.io.Serializable">
+              <point x="35.19999999999999" y="-14.5" />
+              <point x="311.95" y="296.0" />
+              <point x="485.75" y="296.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="263.0" y="133.0" />
+              <point x="227.03750000000002" y="133.0" />
+              <point x="24.0" y="14.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="27.0" y="-14.5" />
+              <point x="195.0" y="212.0" />
+              <point x="249.25" y="212.0" />
+              <point x="-13.75" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="-27.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.List">
+              <point x="0.0" y="-14.5" />
+              <point x="13.75" y="14.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.AbstractList">
+              <point x="-17.600000000000023" y="-14.5" />
+              <point x="259.15" y="286.0" />
+              <point x="168.0" y="286.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="141.0" y="133.0" />
+              <point x="179.03750000000002" y="133.0" />
+              <point x="-24.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.7396421159627538" x="111.56778858220241" y="-280.47525519977376" />
+          <SelectedNodes>
+            <node>java.util.ArrayList</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/src/main/java/com/alpha/source/code/list/ArrayList/ArrayList.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.55903614">
-            <caret line="191" column="2" selection-start-line="191" selection-start-column="2" selection-end-line="191" selection-end-column="2" />
+          <first_editor vertical-scroll-proportion="0.75421685">
+            <caret line="219" column="32" selection-start-line="219" selection-start-column="32" selection-end-line="219" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.LinkedList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.LinkedList</OriginalElement>
+          <nodes>
+            <node x="169.0" y="158.0">java.util.List</node>
+            <node x="0.0" y="158.0">java.util.AbstractCollection</node>
+            <node x="344.75" y="316.0">java.lang.Cloneable</node>
+            <node x="148.5" y="79.0">java.util.Collection</node>
+            <node x="47.5" y="237.0">java.util.AbstractList</node>
+            <node x="298.25" y="158.0">java.util.Queue</node>
+            <node x="220.79464285714283" y="395.0">java.util.LinkedList</node>
+            <node x="298.25" y="237.0">java.util.Deque</node>
+            <node x="15.0" y="316.0">java.util.AbstractSequentialList</node>
+            <node x="157.0" y="0.0">java.lang.Iterable</node>
+            <node x="220.75" y="316.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.AbstractSequentialList" target="java.util.AbstractList">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.util.Deque">
+              <point x="19.399999999999977" y="-14.5" />
+              <point x="288.6946428571428" y="365.0" />
+              <point x="334.25" y="365.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.util.List">
+              <point x="-19.400000000000006" y="-14.5" />
+              <point x="249.89464285714283" y="365.0" />
+              <point x="210.25" y="365.0" />
+              <point x="13.75" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="-27.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.Queue" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="334.25" y="133.0" />
+              <point x="228.5" y="133.0" />
+              <point x="32.0" y="14.5" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.lang.Cloneable">
+              <point x="38.80000000000001" y="-14.5" />
+              <point x="308.09464285714284" y="375.0" />
+              <point x="391.75" y="375.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.io.Serializable">
+              <point x="0.0" y="-14.5" />
+              <point x="269.29464285714283" y="375.0" />
+              <point x="272.25" y="375.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.Deque" target="java.util.Queue">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="27.0" y="-14.5" />
+              <point x="128.5" y="212.0" />
+              <point x="182.75" y="212.0" />
+              <point x="-13.75" y="14.5" />
+            </edge>
+            <edge source="java.util.LinkedList" target="java.util.AbstractSequentialList">
+              <point x="-38.80000000000001" y="-14.5" />
+              <point x="230.49464285714282" y="375.0" />
+              <point x="101.5" y="375.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-14.5" />
+              <point x="74.5" y="133.0" />
+              <point x="164.5" y="133.0" />
+              <point x="-32.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.7631990115786755" x="89.11622875464104" y="-211.88377124535896" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source-code-analysis-template.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.072289154">
+            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source-code-analysis-readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.05060241">
+            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.014457831">
+            <caret line="2" column="132" selection-start-line="2" selection-start-column="132" selection-end-line="2" selection-end-column="132" />
             <folding />
           </first_editor>
           <second_editor />
