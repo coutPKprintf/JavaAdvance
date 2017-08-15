@@ -77,6 +77,10 @@ public class ArrayListTests {
      * 1. 不能在foreach或for中修改ArrayList数据 .
      *
      * 2. 如果需要遍历所有数据, 而且需要调用ArrayList的remove或add, 使用迭代器
+     *
+     * 3. 删除元素, 并不会回收数据的capacity
+     *
+     * 4. trimToSize能够使capacity = size
      */
     @Test
     public void arrayListForEachTest(){
@@ -100,12 +104,6 @@ public class ArrayListTests {
 
         Assert.assertEquals(true, expected);
 
-        try {
-            Thread.sleep(10000000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         // 如果需要遍历所有数据, 而且需要修改ArrayList的remove或add
         expected = true;
 
@@ -121,6 +119,44 @@ public class ArrayListTests {
         }
 
         Assert.assertEquals(true, expected);
+
+
+        // 删除元素, 并不会回收数据的capacity
+        Assert.assertEquals(10 , getCapacity(arrayList));
+
+
+        // trimToSize能够使capacity = size
+        arrayList.trimToSize();
+        Assert.assertEquals(0, getCapacity(arrayList));
+    }
+
+
+    /**
+     * 调用subList方法新生成的List相当于原始List的视图, 当对新生成的List操作时, 原始List也会受到影响
+     */
+    @Test
+    public void arrayListSubListTest(){
+        final ArrayList<Integer> arrayList = new ArrayList<>(10);
+
+        int i = 0;
+
+        for(; i < 10; ++i){
+            arrayList.add(i);
+        }
+
+        List<Integer> subList = arrayList.subList(2, 5);
+
+        Assert.assertEquals(10, arrayList.size());
+
+        Assert.assertEquals(3, subList.size());
+
+
+        // 调用subList方法新生成的List相当于原始List的视图, 当对新生成的List操作时, 原始List也会受到影响
+        subList.remove(0);
+
+        Assert.assertEquals(9, arrayList.size());
+
+        Assert.assertEquals(2, subList.size());
     }
 
 
