@@ -66,7 +66,7 @@ ArrayList是一个基于数组实现的自动扩容的非线程安全列表, 其
 
 #### 4.1 算法分析
 <pre>
-	ArrayList是一个基于数据实现无线扩容的列表(最大长度Integer.MAX_VALUE - 8), 在每次添加新元素时，
+	ArrayList是一个基于数据实现无限扩容的列表(最大长度Integer.MAX_VALUE - 8), 在每次添加新元素时，
 	为了确保元素个数不超过数组大小，当元素个数size > capacity时， ArrayList会以 n + n/2 的增加容量capacity。
 	当每次删除元素时，为了确保元素在数组中的连续性， ArrayList将会把被删除元素之后的所有元素前移一位。
 	当通过下标获取元素时，ArrayList通过数组的下标直接定位到指定元素。
