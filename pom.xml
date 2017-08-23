@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>source-code-analysis</module>
+        <module>algorithm-analysis</module>
     </modules>
 
     <properties>

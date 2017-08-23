@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaAdvance.iml" filepath="$PROJECT_DIR$/JavaAdvance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-analysis/algorithm-analysis.iml" filepath="$PROJECT_DIR$/algorithm-analysis/algorithm-analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-classloader/source-code-analysis-classloader.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-classloader/source-code-analysis-classloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/source-code-analysis-collection.iml" filepath="$PROJECT_DIR$/source-code-analysis/source-code-analysis-collection/source-code-analysis-collection.iml" />
